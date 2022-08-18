@@ -357,3 +357,45 @@
   background-color: transparent;
   /* color: rgb(130, 76, 76); */
 }
+
+.boxing {
+  width: 299px;
+  height: 400px;
+  background-color: red;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, rgb(143, 20, 20), red, rgb(0, 0, 0), black);
+  border-radius: 30px;
+  margin-top: 150px;
+  border: 0.5px solid;
+  /* padding: 10px; */
+  box-shadow: 5px 10px 5px 3px rgb(186, 117, 117);
+}
+
+#backimage {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  height: 800px;
+  z-index: -1;
+  /* background-color: #fddada; */
+  background-image: linear-gradient(rgba(81, 214, 240, 0), rgb(172, 52, 31));
+  animation: hellooo;
+}
+
+@keyframes hellooo {
+  0% {
+    background-position: 0% 50%
+  }
+
+  25% {
+    background-position: 100% 30%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
