@@ -80,3 +80,4 @@ function download2() {
 } function download4() {
     window.open("https://drive.google.com/u/0/uc?id=1yNCEeXJz_Olr8lxc4KJKuIVKadiPMgd5&export=download");
 }
+

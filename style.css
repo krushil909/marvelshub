@@ -303,6 +303,23 @@
   /* background-image: url(./vdos/iron.gif); */
 }
 
+.ioman {
+  animation-name: ioman;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ioman {
+
+  from {
+    left: -30px;
+  }
+
+  to {
+    left: 1500px;
+  }
+}
+
 #pngiron {
   margin-left: 38px;
   margin-top: 22px;
