@@ -64,3 +64,17 @@ function dragElement(elmnt) {
         document.onmousemove = null;
     }
 }
+
+
+
+
+function download() {
+    window.open("https://drive.google.com/u/0/uc?id=1if0nXOM_RGSiVCTpIavmRwTc7LQhb9C-&export=download");
+}
+function download2() {
+    window.open("https://drive.google.com/u/0/uc?id=1lp437BuIgkbyS45N84V5u9hpKDbZ196d&export=download");
+} function download3() {
+    window.open("https://drive.google.com/u/0/uc?id=14Wyc5qRP4czi9rchyuM_b6DKnTn42DDM&export=download");
+} function download4() {
+    window.open("https://drive.google.com/u/0/uc?id=1yNCEeXJz_Olr8lxc4KJKuIVKadiPMgd5&export=download");
+}
