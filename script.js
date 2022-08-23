@@ -64,7 +64,9 @@ function dragElement(elmnt) {
         document.onmousemove = null;
     }
 }
-
+function bakaaa() {
+    window.open("https://bakaaa.redskull.me/");
+}
 
 
 
